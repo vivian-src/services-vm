@@ -30,11 +30,11 @@ DNS1="9.9.9.9"
 DNS2="149.112.112.112"
 
 # Repo
-GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/master/wordpress"
-STATIC="$GITHUB_REPO/static"
-LETS_ENC="$GITHUB_REPO/lets-encrypt"
+GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/master"
+STATIC="$GITHUB_REPO/wordpress/static"
+LETS_ENC="$GITHUB_REPO/wordpress/lets-encrypt"
 ISSUES="https://github.com/techandme/wordpress-vm/issues"
-APP="$GITHUB_REPO/apps"
+APP="$GITHUB_REPO/wordpress/apps"
 
 # User information
 WPDBNAME=wordpress_by_www_hanssonit_se

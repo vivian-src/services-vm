@@ -71,15 +71,15 @@ fi
 }
 use_global_systemd_dns
 # Repo
-GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud"
-STATIC="$GITHUB_REPO/static"
-LETS_ENC="$GITHUB_REPO/lets-encrypt"
-APP="$GITHUB_REPO/apps"
-OLD="$GITHUB_REPO/old"
-ADDONS="$GITHUB_REPO/addons"
-VAGRANT_DIR="$GITHUB_REPO/vagrant"
+GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/master"
+STATIC="$GITHUB_REPO/nextcloud/static"
+LETS_ENC="$GITHUB_REPO/nextcloud/lets-encrypt"
+APP="$GITHUB_REPO/nextcloud/apps"
+OLD="$GITHUB_REPO/nextcloud/old"
+ADDONS="$GITHUB_REPO/nextcloud/addons"
+VAGRANT_DIR="$GITHUB_REPO/nextcloud/vagrant"
 NCREPO="https://download.nextcloud.com/server/releases"
-ISSUES="https://github.com/vivian-src/services-vm/nextcloud/issues"
+ISSUES="https://github.com/vivian-src/services-vm/issues"
 # User information
 NCPASS=nextcloud
 NCUSER=ncadmin
