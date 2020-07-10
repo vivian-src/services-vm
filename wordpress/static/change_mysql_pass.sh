@@ -5,7 +5,7 @@ true
 MYCNFPW=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/wordpress/lib.sh)
 unset MYCNFPW
 
-# T&M Hansson IT AB © - 2019, https://www.hanssonit.se/
+
 
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# T&M Hansson IT AB © - 2020, https://www.hanssonit.se/
+
 # SwITNet Ltd © - 2020, https://switnet.net/
 
 # shellcheck disable=2034,2059

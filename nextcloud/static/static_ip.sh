@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# T&M Hansson IT AB © - 2020, https://www.hanssonit.se/
+
 
 IRed='\e[0;91m'         # Red
 ICyan='\e[0;96m'        # Cyan

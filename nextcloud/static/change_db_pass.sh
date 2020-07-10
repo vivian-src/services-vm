@@ -5,7 +5,7 @@ true
 NCDBPASS=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh)
 unset NCDBPASS
 
-# T&M Hansson IT AB © - 2020, https://www.hanssonit.se/
+
 
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON

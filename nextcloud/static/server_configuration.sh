@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# T&M Hansson IT AB © - 2020, https://www.hanssonit.se/
+
 
 # Use local lib file in case there is no internet connection
 if [ -f /var/scripts/lib.sh ]

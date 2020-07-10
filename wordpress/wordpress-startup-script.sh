@@ -8,7 +8,7 @@ unset CHECK_CURRENT_REPO
 unset MYCNFPW
 unset WPDB
 
-# T&M Hansson IT AB © - 2019, https://www.hanssonit.se/
+
 
 ## If you want debug mode, please activate it further down in the code at line ~132
 

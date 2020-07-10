@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# T&M Hansson IT AB © - 2019, https://www.hanssonit.se/
+
 
 WANIP6=$(curl -s -k -m 5 https://ipv6bot.whatismyipaddress.com)
 WANIP4=$(curl -s -k -m 5 https://ipv4bot.whatismyipaddress.com)
