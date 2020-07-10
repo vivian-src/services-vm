@@ -14,7 +14,7 @@ Go to [https://localhost:8080/](https://localhost:8080/) and access Nextcloud wi
     - Clones https://github.com/vivian-src/services-vm/nextcloud
     - Runs `yes no | sudo bash nextcloud_install_production.sh` which uses the default values for each prompt
 
-See https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/lib.sh for default values.
+See https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh for default values.
 
 # Special thanks to
 @gjgd for providing https://github.com/gjgd/vagrant-nextcloud which this is based upon

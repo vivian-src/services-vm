@@ -15,7 +15,7 @@ then
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-. <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/lib.sh)
+. <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh)
 else
     printf "You don't seem to have a working internet connection, and /var/scripts/lib.sh is missing so you can't run this script."
     printf "Please report this to https://github.com/vivian-src/services-vm/nextcloud/issues/"

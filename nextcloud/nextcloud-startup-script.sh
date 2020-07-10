@@ -50,7 +50,7 @@ elif printf "Testing internet connection..." && ping github.com -c 2
 then
 true
 # shellcheck source=lib.sh
-NCDB=1 && FIRST_IFACE=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/lib.sh)
+NCDB=1 && FIRST_IFACE=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh)
 unset FIRST_IFACE
 unset NCDB
 else
@@ -133,7 +133,7 @@ Please also post this issue on: https://github.com/vivian-src/services-vm/nextcl
 fi
 
 # shellcheck source=lib.sh
-NCDB=1 && NC_UPDATE=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/lib.sh)
+NCDB=1 && NC_UPDATE=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh)
 unset NC_UPDATE
 unset NCDB
 

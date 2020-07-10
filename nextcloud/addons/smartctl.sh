@@ -5,7 +5,7 @@
 # shellcheck disable=2034,2059,2086
 true
 # shellcheck source=lib.sh
-. <(curl -sL https://raw.githubusercontent.com/vivain-src/services-vm/master/nextcloud//lib.sh)
+. <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud//lib.sh)
 
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON

@@ -23,7 +23,7 @@ then
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-FIRST_IFACE=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/lib.sh)
+FIRST_IFACE=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh)
 unset FIRST_IFACE
 else
     printf "You don't seem to have a working internet connection, and /var/scripts/lib.sh is missing so you can't run this script."

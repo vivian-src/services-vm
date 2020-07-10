@@ -30,7 +30,7 @@ DNS1="9.9.9.9"
 DNS2="149.112.112.112"
 
 # Repo
-GITHUB_REPO="https://raw.githubusercontent.com/techandme/wordpress-vm/master"
+GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/master/wordpress"
 STATIC="$GITHUB_REPO/static"
 LETS_ENC="$GITHUB_REPO/lets-encrypt"
 ISSUES="https://github.com/techandme/wordpress-vm/issues"

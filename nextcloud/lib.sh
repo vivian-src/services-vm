@@ -71,7 +71,7 @@ fi
 }
 use_global_systemd_dns
 # Repo
-GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master"
+GITHUB_REPO="https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud"
 STATIC="$GITHUB_REPO/static"
 LETS_ENC="$GITHUB_REPO/lets-encrypt"
 APP="$GITHUB_REPO/apps"

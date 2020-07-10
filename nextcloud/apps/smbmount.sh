@@ -5,7 +5,7 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-. <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/lib.sh)
+. <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/lib.sh)
 
 # Check for errors + debug code and abort if something isn't right
 # 1 = ON
@@ -58,7 +58,7 @@ do
 done
 if [ $count -gt $MAX_COUNT ]
 then
-    msg_box "All $MAX_COUNT slots are occupied. No mounting slots available. Please delete one of the SMB-mounts.\nIf you really want to mount more, you can simply download the smb-mount script directly and edit the variable 'MAX_COUNT' to a higher value than $MAX_COUNT by running:\n'curl -sLO https://raw.githubusercontent.com/vivian-src/services-vm/nextcloud/master/apps/smbmount.sh /var/scripts'\n'sudo nano /var/scripts/smbmount.sh' # Edit MAX_COUNT=$MAX_COUNT to your likings and save the file\n'sudo bash /var/scripts/smbmount.sh' # Execute the script."
+    msg_box "All $MAX_COUNT slots are occupied. No mounting slots available. Please delete one of the SMB-mounts.\nIf you really want to mount more, you can simply download the smb-mount script directly and edit the variable 'MAX_COUNT' to a higher value than $MAX_COUNT by running:\n'curl -sLO https://raw.githubusercontent.com/vivian-src/services-vm/master/nextcloud/apps/smbmount.sh /var/scripts'\n'sudo nano /var/scripts/smbmount.sh' # Edit MAX_COUNT=$MAX_COUNT to your likings and save the file\n'sudo bash /var/scripts/smbmount.sh' # Execute the script."
     return
 fi
 

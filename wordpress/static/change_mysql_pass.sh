@@ -2,7 +2,7 @@
 # shellcheck disable=2034,2059
 true
 # shellcheck source=lib.sh
-MYCNFPW=1 . <(curl -sL https://raw.githubusercontent.com/techandme/wordpress-vm/master/lib.sh)
+MYCNFPW=1 . <(curl -sL https://raw.githubusercontent.com/vivian-src/services-vm/master/wordpress/lib.sh)
 unset MYCNFPW
 
 # T&M Hansson IT AB © - 2019, https://www.hanssonit.se/
